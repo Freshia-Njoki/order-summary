@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+body{
+    background-image: url(./pattern-background-desktop.svg);
+}
+
+.container{
+    border: 1px solid gray;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    width: 90vh;
+    height: 120vh;
+    background-color: whitesmoke;
+    top: 50%;
+    position: absolute;
+    outline: none;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    
+}
+.hero{
+    margin-right: none;
+    width: 90vh;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.order h1{
+    text-align:center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 24px;
+    /* outline: none; */
+}
+.deco{
+    color: grey;
+    text-align:center;
+    font-size: 16px;
+}
+.annual{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    background-color: rgba(248, 248, 248, 0.89);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 30px;
+}
+h5{
+    color: grey;
+}
+
+.first-button{
+    align-items: center;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 180px;
+    margin: 40px;
+    border-radius: 16px;
+}
+.first-button:hover{
+    cursor: pointer;
+    font-size: 20px;
+    transition: 1.5s;
+    color: antiquewhite;
+}
+
+.last{
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+
+
+    
